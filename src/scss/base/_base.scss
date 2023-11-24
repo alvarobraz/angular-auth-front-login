@@ -12,7 +12,11 @@
 
 body {
   height: 100vh;
-  background: url("~/src/assets/bg.jpg") no-repeat;
+  background: rgb(3,95,221);
+background: -moz-linear-gradient(322deg, rgba(3,95,221,1) 0%, rgba(221,3,48,1) 100%);
+background: -webkit-linear-gradient(322deg, rgba(3,95,221,1) 0%, rgba(221,3,48,1) 100%);
+background: linear-gradient(322deg, rgba(3,95,221,1) 0%, rgba(221,3,48,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#035fdd",endColorstr="#dd0330",GradientType=1);
   background-size: cover;
   display: flex;
   justify-content: center;

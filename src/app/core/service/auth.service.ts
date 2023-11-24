@@ -23,7 +23,6 @@ export class AuthService {
         localStorage.removeItem('access_token');
         localStorage.setItem('access_token', res.token);
         return this.router.navigate(['admin']);
-        // return console.log(res)
       }),
       catchError((e) => {
         if (e.error.message) return throwError(() => e.error.message);
